@@ -9,7 +9,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 With Composer installed, you can then install the extension using the following commands:
 
 ```bash
-composer require coderan/laravel-data-migrations
+composer require jamesfreeman/laravel-data-migrations
 ```
 
 or add 
@@ -17,7 +17,7 @@ or add
 ```json
 ...
     "require": {
-        "coderan/laravel-data-migrations": "^1.0"
+        "jamesfreeman/laravel-data-migrations": "^1.0"
     }
 ```
 
@@ -32,7 +32,7 @@ config/app.php
 return [
     //other stuff
     'providers' => [
-        \Coderan\DataMigrations\DataMigrationsServiceProvider::class,
+        \JamesFreeman\DataMigrations\DataMigrationsServiceProvider::class,
     ];
 ];
 ```

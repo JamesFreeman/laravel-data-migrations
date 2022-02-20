@@ -7,16 +7,16 @@
  * @version     1.0
  */
 
-namespace Coderan\DataMigrations;
+namespace JamesFreeman\DataMigrations;
 
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Database\Migrations\Migrator;
-use Coderan\DataMigrations\Console\Commands\InstallCommand as MigrateInstallCommand;
-use Coderan\DataMigrations\Console\Commands\MakeMigrateDataCommand;
-use Coderan\DataMigrations\Console\Commands\MigrateDataCommand;
-use Coderan\DataMigrations\Console\Commands\RollbackDataCommand;
-use Coderan\DataMigrations\Repositories\DatabaseDataMigrationRepository;
+use JamesFreeman\DataMigrations\Console\Commands\InstallCommand as MigrateInstallCommand;
+use JamesFreeman\DataMigrations\Console\Commands\MakeMigrateDataCommand;
+use JamesFreeman\DataMigrations\Console\Commands\MigrateDataCommand;
+use JamesFreeman\DataMigrations\Console\Commands\RollbackDataCommand;
+use JamesFreeman\DataMigrations\Repositories\DatabaseDataMigrationRepository;
 
 /**
  * DataMigrationsServiceProvider class.

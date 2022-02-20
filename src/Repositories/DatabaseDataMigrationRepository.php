@@ -7,7 +7,7 @@
  * @version     1.0
  */
 
-namespace Coderan\DataMigrations\Repositories;
+namespace JamesFreeman\DataMigrations\Repositories;
 
 use Illuminate\Database\Migrations\DatabaseMigrationRepository;
 

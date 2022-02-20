@@ -7,7 +7,7 @@
  * @version     1.0
  */
 
-namespace Coderan\DataMigrations\Console\Traits;
+namespace JamesFreeman\DataMigrations\Console\Traits;
 
 /**
  * DataMigrationCommandTrait trait.
