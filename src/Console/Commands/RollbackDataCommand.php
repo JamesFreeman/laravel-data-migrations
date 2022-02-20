@@ -7,10 +7,10 @@
  * @version     1.0
  */
 
-namespace Coderan\DataMigrations\Console\Commands;
+namespace JamesFreeman\DataMigrations\Console\Commands;
 
 use Illuminate\Database\Console\Migrations\RollbackCommand;
-use Coderan\DataMigrations\Console\Traits\DataMigrationCommandTrait;
+use JamesFreeman\DataMigrations\Console\Traits\DataMigrationCommandTrait;
 
 /**
  * RollbackDataCommand class.
