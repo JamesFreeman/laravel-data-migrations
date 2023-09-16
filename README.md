@@ -17,7 +17,7 @@ or add
 ```json
 ...
     "require": {
-        "jamesfreeman/laravel-data-migrations": "^1.0"
+        "jamesfreeman/laravel-data-migrations": "^2.0"
     }
 ```
 
